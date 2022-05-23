@@ -1,0 +1,167 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+
+
+
+#container {
+   
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+}
+
+
+
+#menu>div {
+   
+    padding: 13px;
+    padding-left: 25px;
+    display: flex;
+    border: 1px solid #E8EBE4;
+    box-shadow: 1px 1px #E8EBE4;
+    flex-basis: 23%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+
+}
+
+
+/* Maria */
+#barra {
+    padding-top: 8px;
+    padding-left: 25px;
+    padding-bottom: 8px;
+    flex-basis: 19%;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid #E8EBE4;
+    box-shadow: 1px 1px #E8EBE4;
+}
+
+.maria>p {
+    color: rgb(182, 179, 179);
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav>img {
+    max-width: 35px;
+    max-height: 35px;
+    border-radius: 18px;
+    border: 1px solid #E8EBE4;
+}
+
+nav>div {
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+.caja {
+    display: flex;
+    flex-basis: 80px;
+    justify-content: right;
+    align-items: center;
+    color: #BEC1BB;
+}
+
+i {
+
+    padding-left: 10px;
+}
+
+/* Fin Maria */
+
+/* Boton */
+
+#boton {
+    padding: 44px;
+    border: 1px solid #E8EBE4;
+    box-shadow: 1px 1px #E8EBE4;
+
+}
+
+button {
+
+    height: 45px;
+    width: 170px;
+    color: white;
+    background-color: #a491d2;
+    border: #a491d2;
+    font-size: 16px;
+
+
+}
+
+button:hover {
+    background-color: #CDC3E6;
+}
+
+button:focus {
+    background-color: #BEC1BB;
+}
+
+
+#boton>button>a {
+    color: white;
+}
+
+/* fin  Boton */
+
+
+.radius {
+
+    max-width: 50px;
+    border-radius: 25px;
+    border: 1px solid #E8EBE4;
+
+}
+
+#menu>div>div {
+    padding-left: 15px;
+
+}
+
+
+
+/*          logo              */
+
+
+#logo {
+    display: flex;
+    flex-basis: 75%;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.imagenlog {
+    max-width: 350px;
+
+}
+
+#logo>div>h1 {
+    font-size: 45px;
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#logo>div>p {
+    font-size: 16px;
+    padding-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+img{
+    
+}
